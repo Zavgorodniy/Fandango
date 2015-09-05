@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">
+            org.hibernate.dialect.PostgreSQL9Dialect
+        </property>
+        <property name="hibernate.connection.driver_class">
+            org.postgresql.Driver
+        </property>
+        <property name="hibernate.connection.url">
+            jdbc:postgresql://localhost/Fandango
+            <!--jdbc:postgresql://ec2-107-22-175-206.compute-1.amazonaws.com:5432/d781o9ptp1bqfo-->
+        </property>
+        <property name="hibernate.connection.username">
+            postgres
+            <!--pfyxylszixktoz-->
+        </property>
+        <property name="hibernate.connection.password">
+            slesar55
+            <!--N4WC1hVa4HSC53jE5SFSabbxqB-->
+        </property>
+        <!--<property name="hibernate.hbm2ddl.auto">create</property>-->
+        <property name="hibernate.show_sql">true</property>
+    </session-factory>
+</hibernate-configuration>

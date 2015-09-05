@@ -1,0 +1,138 @@
+a {
+    text-decoration: none;
+    color: #4169E1;
+}
+a:hover {
+    color: #4aa7f5;
+}
+li {
+    list-style-type: none;
+}
+td {
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    background-color: #bdbdbd;
+}
+header {
+    text-align: center;
+    height: 10%;
+    background-color: #4c4c4c;
+    padding: 10px;
+    margin: 0px;
+}
+header div {
+    display: inline-block;
+}
+footer {
+    display: block;
+    height: 10%;
+    background-color: #4c4c4c;
+    margin: 0px;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+    font: 20px sans-serif;
+}
+.main {
+    font: 20px sans-serif;
+    padding: 20px;
+    margin: 0px;
+    min-height: 80%;
+}
+.logo {
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.movie {
+    display: block;
+    height: 300px;
+    position: relative;
+    margin-bottom: 40px;
+    color: #2c2c2c;
+}
+.movie div {
+    margin-bottom: 30px;
+}
+.movie .desc {
+    width: 500px;
+    font-size: 18px;
+    margin-left: 200px;
+}
+.poster {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+.error404 {
+    margin: 0 auto;
+    width: 471px;
+    height: 341px;
+    background: no-repeat url("../img/error404.png");
+}
+.ticket {
+    display: block;
+    width: 650px;
+    height: 360px;
+    margin: 30px auto;
+    background: no-repeat url("../img/ticket.png");
+    background-size: contain;
+}
+.ticket table {
+    padding: 60px 0 0 100px;
+}
+.ticket .name {
+    text-align: center;
+    padding-top: 13px;
+}
+.head {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.confirm {
+    text-align: center;
+}
+.search {
+    float: right;
+    margin-right: 30px;
+}
+.search div {
+    font-size: 18px;
+    color: black;
+    margin-right: 15px;
+}
+.search div a {
+    display: inline-block;
+}
+.search form {
+    display: inline-block;
+}
+.button {
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .3em 1em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+}
+.button:hover {
+    background: rgba(255,255,255,.2);
+    cursor: pointer;
+}
+.button:active {
+    background: white;
+}
+.admin-block {
+    display: inline-block;
+    vertical-align: top;
+}
